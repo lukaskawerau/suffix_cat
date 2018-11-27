@@ -10,9 +10,9 @@ A project to categorize publicly known domain suffixes
 
 ## Data Model
 
-| TLD | suffix | category | source | source_archive_url |
-| --- | --- | --- | --- | archive_url |
-| fr | gouv.fr | government | http://www.afnic.fr/obtenir/chartes/nommage-fr/annexe-descriptifs | http://www.archive.xyz |
+| TLD | suffix | category | source | source_archive_url |  
+| --- | --- | --- | --- | --- |  
+| fr | gouv.fr | government | http://www.afnic.fr/obtenir/chartes/nommage-fr/annexe-descriptifs | http://www.archive.xyz |  
 
 Categories:
 
