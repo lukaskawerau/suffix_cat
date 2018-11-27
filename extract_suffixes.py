@@ -7,7 +7,7 @@ sources = []
 
 def check_cat(suffix):
     govs = ["gov.", "gouv.", "gob.", "gv."]
-    if any(g in suffix for g in govs):
+    if any(g in suffix for g in govs) or "gov" == suffix:
         # this is a heuristic with some undercoverage
         category = "government"
     elif "mil." in suffix:

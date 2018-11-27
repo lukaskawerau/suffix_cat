@@ -828,7 +828,7 @@ gn,edu.gn,education,http://psg.com/dns/gn/gn.txt
 gn,gov.gn,government,http://psg.com/dns/gn/gn.txt
 gn,org.gn,,http://psg.com/dns/gn/gn.txt
 gn,net.gn,,http://psg.com/dns/gn/gn.txt
-gov,gov,,https://en.wikipedia.org/wiki/.gov
+gov,gov,government,https://en.wikipedia.org/wiki/.gov
 gp,gp,,http://www.nic.gp/index.php?lang=en
 gp,com.gp,,http://www.nic.gp/index.php?lang=en
 gp,net.gp,,http://www.nic.gp/index.php?lang=en
