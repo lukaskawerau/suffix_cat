@@ -1,6 +1,6 @@
 # suffix_cat
 
-A project to categorize publicly known domain suffixes
+A project to categorize publicly known domain suffixes of ccTLDs.  
 
 ## TODO:
 1. [x] create data model
