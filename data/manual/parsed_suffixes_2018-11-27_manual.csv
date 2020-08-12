@@ -229,6 +229,8 @@ bb,org.bb,,https://en.wikipedia.org/wiki/.bb
 bb,store.bb,,https://en.wikipedia.org/wiki/.bb
 bb,tv.bb,,https://en.wikipedia.org/wiki/.bb
 bd,*.bd,,https://en.wikipedia.org/wiki/.bd
+bd,gov.bd,government,https://en.wikipedia.org/wiki/.bd
+bd,mil.bd,military,https://en.wikipedia.org/wiki/.bd
 be,be,,https://en.wikipedia.org/wiki/.be
 be,ac.be,,https://en.wikipedia.org/wiki/.be
 bf,bf,,https://en.wikipedia.org/wiki/.bf
@@ -281,6 +283,7 @@ bi,co.bi,,https://en.wikipedia.org/wiki/.bi
 bi,com.bi,,https://en.wikipedia.org/wiki/.bi
 bi,edu.bi,education,https://en.wikipedia.org/wiki/.bi
 bi,or.bi,,https://en.wikipedia.org/wiki/.bi
+bi,gov.bi,government,
 bi,org.bi,,https://en.wikipedia.org/wiki/.bi
 biz,biz,,https://en.wikipedia.org/wiki/.biz
 bj,bj,,https://en.wikipedia.org/wiki/.bj
@@ -546,8 +549,11 @@ cc,cc,,https://en.wikipedia.org/wiki/.cc
 cd,cd,,https://en.wikipedia.org/wiki/.cd
 cd,gov.cd,government,https://en.wikipedia.org/wiki/.cd
 cf,cf,,https://en.wikipedia.org/wiki/.cf
+cf,gouv.cf,government,
 cg,cg,,https://en.wikipedia.org/wiki/.cg
+cg,gouv.cg,government,
 ch,ch,,https://en.wikipedia.org/wiki/.ch
+ch,admin.ch,government,
 ci,ci,,https://en.wikipedia.org/wiki/.ci
 ci,org.ci,,https://en.wikipedia.org/wiki/.ci
 ci,or.ci,,https://en.wikipedia.org/wiki/.ci
@@ -642,7 +648,7 @@ cr,ac.cr,,http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do
 cr,co.cr,,http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do
 cr,ed.cr,,http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do
 cr,fi.cr,,http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do
-cr,go.cr,,http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do
+cr,go.cr,government,http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do
 cr,or.cr,,http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do
 cr,sa.cr,,http://www.nic.cr/niccr_publico/showRegistroDominiosScreen.do
 cu,cu,,https://en.wikipedia.org/wiki/.cu
@@ -653,6 +659,7 @@ cu,net.cu,,https://en.wikipedia.org/wiki/.cu
 cu,gov.cu,government,https://en.wikipedia.org/wiki/.cu
 cu,inf.cu,,https://en.wikipedia.org/wiki/.cu
 cv,cv,,https://en.wikipedia.org/wiki/.cv
+cv,gov.cv,government,
 cw,cw,,http://www.una.cw/cw_registry
 cw,com.cw,,http://www.una.cw/cw_registry
 cw,edu.cw,education,http://www.una.cw/cw_registry
@@ -675,8 +682,10 @@ cy,press.cy,,http://www.nic.cy
 cy,pro.cy,,http://www.nic.cy
 cy,tm.cy,,http://www.nic.cy
 cz,cz,,https://en.wikipedia.org/wiki/.cz
+cz,gov.cz,government,
 de,de,,https://en.wikipedia.org/wiki/.de
 dj,dj,,https://en.wikipedia.org/wiki/.dj
+dj,gov.dj,government,
 dk,dk,,https://en.wikipedia.org/wiki/.dk
 dm,dm,,https://en.wikipedia.org/wiki/.dm
 dm,com.dm,,https://en.wikipedia.org/wiki/.dm
@@ -740,6 +749,7 @@ eg,net.eg,,https://en.wikipedia.org/wiki/.eg
 eg,org.eg,,https://en.wikipedia.org/wiki/.eg
 eg,sci.eg,,https://en.wikipedia.org/wiki/.eg
 er,*.er,,https://en.wikipedia.org/wiki/.er
+er,gov.er,government,https://en.wikipedia.org/wiki/.er
 es,es,,https://www.nic.es/site_ingles/ingles/dominios/index.html
 es,com.es,,https://www.nic.es/site_ingles/ingles/dominios/index.html
 es,nom.es,,https://www.nic.es/site_ingles/ingles/dominios/index.html
@@ -788,6 +798,8 @@ fr,pharmacien.fr,,http://www.afnic.fr/obtenir/chartes/nommage-fr/annexe-sectorie
 fr,port.fr,,http://www.afnic.fr/obtenir/chartes/nommage-fr/annexe-sectoriels
 fr,veterinaire.fr,,http://www.afnic.fr/obtenir/chartes/nommage-fr/annexe-sectoriels
 ga,ga,,https://en.wikipedia.org/wiki/.ga
+ga,gouv.ga,government,https://en.wikipedia.org/wiki/.ga
+ga,go.ga,government,https://en.wikipedia.org/wiki/.ga
 gb,gb,,This registry is effectively dormant
 gd,gd,,https://en.wikipedia.org/wiki/.gd
 ge,ge,,http://www.nic.net.ge/policy_en.pdf
@@ -841,6 +853,8 @@ gp,edu.gp,education,http://www.nic.gp/index.php?lang=en
 gp,org.gp,,http://www.nic.gp/index.php?lang=en
 gp,asso.gp,,http://www.nic.gp/index.php?lang=en
 gq,gq,,https://en.wikipedia.org/wiki/.gq
+gq,gov.gq,government,https://en.wikipedia.org/wiki/.gq
+gq,mil.gq,military,https://en.wikipedia.org/wiki/.gq
 gr,gr,,https://grweb.ics.forth.gr/english/1617-B-2005.html
 gr,com.gr,,https://grweb.ics.forth.gr/english/1617-B-2005.html
 gr,edu.gr,education,https://grweb.ics.forth.gr/english/1617-B-2005.html
@@ -908,6 +922,7 @@ hr,iz.hr,,http://www.dns.hr/documents/pdf/HRTLD-regulations.pdf
 hr,from.hr,,http://www.dns.hr/documents/pdf/HRTLD-regulations.pdf
 hr,name.hr,,http://www.dns.hr/documents/pdf/HRTLD-regulations.pdf
 hr,com.hr,,http://www.dns.hr/documents/pdf/HRTLD-regulations.pdf
+hr,gov.hr,government,
 ht,ht,,http://www.nic.ht/info/charte.cfm
 ht,com.ht,,http://www.nic.ht/info/charte.cfm
 ht,shop.ht,,http://www.nic.ht/info/charte.cfm
@@ -964,7 +979,7 @@ id,ac.id,,https://pandi.id/en/domain/registration-requirements
 id,biz.id,,https://pandi.id/en/domain/registration-requirements
 id,co.id,,https://pandi.id/en/domain/registration-requirements
 id,desa.id,,https://pandi.id/en/domain/registration-requirements
-id,go.id,,https://pandi.id/en/domain/registration-requirements
+id,go.id,government,https://pandi.id/en/domain/registration-requirements
 id,mil.id,military,https://pandi.id/en/domain/registration-requirements
 id,my.id,,https://pandi.id/en/domain/registration-requirements
 id,net.id,,https://pandi.id/en/domain/registration-requirements
@@ -3444,6 +3459,7 @@ mc,mc,,http://www.nic.mc
 mc,tm.mc,,http://www.nic.mc
 mc,asso.mc,,http://www.nic.mc
 md,md,,https://en.wikipedia.org/wiki/.md
+md,gov.md,government,
 me,me,,https://en.wikipedia.org/wiki/.me
 me,co.me,,https://en.wikipedia.org/wiki/.me
 me,net.me,,https://en.wikipedia.org/wiki/.me
@@ -3482,6 +3498,7 @@ ml,net.ml,,http://www.gobin.info/domainname/ml-template.doc
 ml,org.ml,,http://www.gobin.info/domainname/ml-template.doc
 ml,presse.ml,,http://www.gobin.info/domainname/ml-template.doc
 mm,*.mm,,https://en.wikipedia.org/wiki/.mm
+mm,gov.mm,government,https://en.wikipedia.org/wiki/.mm
 mn,mn,,https://en.wikipedia.org/wiki/.mn
 mn,gov.mn,government,https://en.wikipedia.org/wiki/.mn
 mn,edu.mn,education,https://en.wikipedia.org/wiki/.mn
