@@ -513,6 +513,7 @@ bv,bv,,No registrations at this time.
 bw,bw,,https://en.wikipedia.org/wiki/.bw
 bw,co.bw,,https://en.wikipedia.org/wiki/.bw
 bw,org.bw,,https://en.wikipedia.org/wiki/.bw
+bw,gov.bw,government,
 by,by,,https://en.wikipedia.org/wiki/.by
 by,gov.by,government,https://en.wikipedia.org/wiki/.by
 by,mil.by,military,https://en.wikipedia.org/wiki/.by
@@ -539,7 +540,7 @@ ca,pe.ca,,https://en.wikipedia.org/wiki/.ca
 ca,qc.ca,,https://en.wikipedia.org/wiki/.ca
 ca,sk.ca,,https://en.wikipedia.org/wiki/.ca
 ca,yk.ca,,https://en.wikipedia.org/wiki/.ca
-ca,gc.ca,,https://en.wikipedia.org/wiki/.ca
+ca,gc.ca,government,https://en.wikipedia.org/wiki/.ca
 cat,cat,,https://en.wikipedia.org/wiki/.cat
 cc,cc,,https://en.wikipedia.org/wiki/.cc
 cd,cd,,https://en.wikipedia.org/wiki/.cd
@@ -758,6 +759,7 @@ eu,eu,,https://en.wikipedia.org/wiki/.eu
 fi,fi,,https://en.wikipedia.org/wiki/.fi
 fi,aland.fi,,https://en.wikipedia.org/wiki/.ax
 fj,*.fj,,https://en.wikipedia.org/wiki/.fj
+fj,gov.fj,government,
 fk,*.fk,,https://en.wikipedia.org/wiki/.fk
 fm,fm,,https://en.wikipedia.org/wiki/.fm
 fo,fo,,https://en.wikipedia.org/wiki/.fo
