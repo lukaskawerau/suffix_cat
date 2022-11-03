@@ -5,13 +5,13 @@ outfile = open("data/processed/parsed_suffixes.csv", "w")
 writer = csv.writer(outfile, dialect='unix', delimiter = ",", quoting=csv.QUOTE_MINIMAL)
 sources = []
 
-# suffix elements for classification
+# suffix elements for categorization
 #   <suffix_element>: (<is_tld>, <category>, <exclusions>)
 #   <is_tld> : True if suffix is a TLD (gov in whitehouse.gov)
 #              False if not (.gouv.fr)
 #              (used in case of conflicting suffixes, eg.
 #               "ac" which is also a ccTLD)
-suffix_classifying_elements = {
+suffix_category_elements = {
     ### government
     # .gov, .gov.uk, ...
     "gov": (True, "government", {}),
@@ -52,20 +52,20 @@ suffix_classifying_elements = {
     "museum": (True, "museum", {}),
 }
 
-classified_suffixes = {
+categorized_suffixes = {
     "fed.us": "government",
 }
 
 def check_cat(suffix, elements):
-    global suffix_classifying_elements
+    global suffix_category_elements
     categories = set()
     # look at the last and second last elements
     for i in [1, 2]:
         if i > len(elements):
             break
         suffix_element = elements[-i]
-        if suffix_element in suffix_classifying_elements:
-            category = suffix_classifying_elements[suffix_element]
+        if suffix_element in suffix_category_elements:
+            category = suffix_category_elements[suffix_element]
             if (i > 1 or category[0]) and not suffix in category[2]:
                 return category[1]
     return None
