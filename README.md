@@ -10,17 +10,19 @@ A project to categorize publicly known domain suffixes of ccTLDs.
 
 ## Data Model
 
-| TLD | suffix | category | source | source_archive_url |  
-| --- | --- | --- | --- | --- |  
-| fr | gouv.fr | government | http://www.afnic.fr/obtenir/chartes/nommage-fr/annexe-descriptifs | http://www.archive.xyz |  
+| TLD | suffix  | category   | source/reference |
+| --- | ------  | --------   | ---------------- |
+| fr  | gouv.fr | government | http://www.afnic.fr/obtenir/chartes/nommage-fr/annexe-descriptifs |
 
 Categories:
 
-- government_unspecified
-- government_national
-- government_subnational
+- government
 - military
 - education
+- library
+- museum
+
+(to be done)
 - ngo_unspecified
 - ngo_local
 - ngo_international
@@ -28,3 +30,13 @@ Categories:
 - network_infrastructure
 - media
 - other
+
+## Updating
+
+The list is updated by executing the following steps:
+- upgrade to the latest version of the public suffix list in `data/raw/`
+- run `python3 extract_suffixes.py`
+- look for categorized suffixed which have disappeared and add them to `data/manual/legacy_public_suffixes.csv` in order to be able to process older data
+- if necessary update and extend `data/manual/manual_additions_not_public_suffix.csv`
+- run `python3 merge_suffixes.py`
+- verify the final, merged list: [data/manual/parsed_suffixes_manual.csv](./data/manual/parsed_suffixes_manual.csv)
