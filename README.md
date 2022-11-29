@@ -10,9 +10,9 @@ A project to categorize publicly known domain suffixes of ccTLDs.
 
 ## Data Model
 
-| TLD | suffix  | category   | source/reference |
-| --- | ------  | --------   | ---------------- |
-| fr  | gouv.fr | government | http://www.afnic.fr/obtenir/chartes/nommage-fr/annexe-descriptifs |
+| TLD | suffix  | country | category   | source/reference |
+| --- | ------  | ------- | --------   | ---------------- |
+| fr  | gouv.fr | FR      | government | http://www.afnic.fr/obtenir/chartes/nommage-fr/annexe-descriptifs |
 
 Categories:
 
@@ -38,5 +38,6 @@ The list is updated by executing the following steps:
 - run `python3 extract_suffixes.py`
 - look for categorized suffixed which have disappeared and add them to `data/manual/legacy_public_suffixes.csv` in order to be able to process older data
 - if necessary update and extend `data/manual/manual_additions_not_public_suffix.csv`
+- if necessary also update the mapping of TLD to country (`data/manual/tld_country.csv`)
 - run `python3 merge_suffixes.py`
 - verify the final, merged list: [data/manual/parsed_suffixes_manual.csv](./data/manual/parsed_suffixes_manual.csv)
